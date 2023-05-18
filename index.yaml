@@ -3,7 +3,31 @@ entries:
   url-shortener:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-18T12:53:42.80102709+02:00"
+    created: "2023-05-18T13:09:21.42096872+02:00"
+    dependencies:
+    - name: url-shortener-backend
+      repository: https://danieldidiobalsamo.github.io/helm-charts-repo/
+      version: 0.1.3
+    - name: url-shortener-frontend
+      repository: https://danieldidiobalsamo.github.io/helm-charts-repo/
+      version: 0.1.1
+    description: url shortener app developed using Rust, Redis and Vue.js
+    digest: a5b3c162216235d408946d8e1f5b5ee0403ebb4cb494a5db402371171e43d55c
+    home: https://github.com/danieldidiobalsamo/url_shortener
+    keywords:
+    - url-shortener
+    - rust
+    - redis
+    name: url-shortener
+    sources:
+    - https://github.com/danieldidiobalsamo/url_shortener
+    type: application
+    urls:
+    - url-shortener/url-shortener-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-18T13:09:21.420397558+02:00"
     description: url shortener app developed using Rust, Redis and Vue.js
     digest: 369f2c588687a4bee49d525a09a7f155d13541a9094e151723494d512fc70318
     home: https://github.com/danieldidiobalsamo/url_shortener
@@ -21,7 +45,7 @@ entries:
   url-shortener-backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-18T12:53:42.801468281+02:00"
+    created: "2023-05-18T13:09:21.421425555+02:00"
     description: backend part of a url shortener app developed using Rust and Redis
     digest: 8506442b11a9e023eb2e80441b9dd650dbc42e7facd1541a6285b9d39a785bac
     home: https://github.com/danieldidiobalsamo/url_shortener
@@ -38,7 +62,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-18T12:53:42.80127422+02:00"
+    created: "2023-05-18T13:09:21.421205016+02:00"
     description: backend part of a url shortener app developed using Rust and Redis
     digest: 7c8741035af17b496412a9c50d8cb562d5cb3e1f1cd80a773848db3c69242794
     home: https://github.com/danieldidiobalsamo/url_shortener
@@ -56,7 +80,7 @@ entries:
   url-shortener-frontend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-18T12:53:42.801657304+02:00"
+    created: "2023-05-18T13:09:21.421609392+02:00"
     description: frontend part of a url shortener app developed using Vue.js, Rust
       and Redis
     digest: a7aa51eda00760bafefeaf3caa3cccf57df9043d198115fd7c4fbefa1f23ec17
@@ -75,7 +99,7 @@ entries:
   url-shortener-redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-18T12:53:42.801831108+02:00"
+    created: "2023-05-18T13:09:21.422176512+02:00"
     description: redis cluster for a url shortener app developed using Vue.js, Rust
       and Redis
     digest: 339998b0f45b4065a061c5087e02bfb7313da499a44c9b64fffd7d68fa59b4ed
@@ -83,4 +107,4 @@ entries:
     urls:
     - url-shortener/url-shortener-redis-0.1.1.tgz
     version: 0.1.1
-generated: "2023-05-18T12:53:42.800481257+02:00"
+generated: "2023-05-18T13:09:21.419699668+02:00"
