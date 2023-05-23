@@ -3,7 +3,7 @@ entries:
   url-shortener:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-23T18:27:07.229398437+02:00"
+    created: "2023-05-23T18:28:57.345261305+02:00"
     dependencies:
     - name: url-shortener-backend
       repository: https://danieldidiobalsamo.github.io/helm-charts-repo/
@@ -23,11 +23,11 @@ entries:
     - https://github.com/danieldidiobalsamo/url_shortener
     type: application
     urls:
-    - url-shortener-0.1.3.tgz
+    - url-shortener/url-shortener-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-23T18:27:07.230885581+02:00"
+    created: "2023-05-23T18:28:57.344833734+02:00"
     dependencies:
     - name: url-shortener-backend
       repository: https://danieldidiobalsamo.github.io/helm-charts-repo/
@@ -51,7 +51,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-23T18:27:07.230606834+02:00"
+    created: "2023-05-23T18:28:57.344379208+02:00"
     description: url shortener app developed using Rust, Redis and Vue.js
     digest: 369f2c588687a4bee49d525a09a7f155d13541a9094e151723494d512fc70318
     home: https://github.com/danieldidiobalsamo/url_shortener
@@ -69,7 +69,7 @@ entries:
   url-shortener-backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-23T18:27:07.229598861+02:00"
+    created: "2023-05-23T18:28:57.346461667+02:00"
     description: backend part of a url shortener app developed using Rust and Redis
     digest: 5af6c9e6e7703b0eef5b413d3dcf8de645b8945fc13b632d9a8a7f289d7d4a9f
     home: https://github.com/danieldidiobalsamo/url_shortener
@@ -82,11 +82,11 @@ entries:
     - https://github.com/danieldidiobalsamo/url_shortener
     type: application
     urls:
-    - url-shortener-backend-0.1.4.tgz
+    - url-shortener/url-shortener-backend-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-23T18:27:07.231102601+02:00"
+    created: "2023-05-23T18:28:57.345633719+02:00"
     description: backend part of a url shortener app developed using Rust and Redis
     digest: 8506442b11a9e023eb2e80441b9dd650dbc42e7facd1541a6285b9d39a785bac
     home: https://github.com/danieldidiobalsamo/url_shortener
@@ -103,7 +103,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-23T18:27:07.230992133+02:00"
+    created: "2023-05-23T18:28:57.345453338+02:00"
     description: backend part of a url shortener app developed using Rust and Redis
     digest: 7c8741035af17b496412a9c50d8cb562d5cb3e1f1cd80a773848db3c69242794
     home: https://github.com/danieldidiobalsamo/url_shortener
@@ -121,7 +121,7 @@ entries:
   url-shortener-frontend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-23T18:27:07.229768914+02:00"
+    created: "2023-05-23T18:28:57.346819817+02:00"
     description: frontend part of a url shortener app developed using Vue.js, Rust
       and Redis
     digest: ff559a29430de9d39b0864fbf1ee0e540bd9829a447a3a32c753bc935aea8bbf
@@ -135,11 +135,11 @@ entries:
     - https://github.com/danieldidiobalsamo/url_shortener
     type: application
     urls:
-    - url-shortener-frontend-0.1.2.tgz
+    - url-shortener/url-shortener-frontend-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-23T18:27:07.23119815+02:00"
+    created: "2023-05-23T18:28:57.346645729+02:00"
     description: frontend part of a url shortener app developed using Vue.js, Rust
       and Redis
     digest: a7aa51eda00760bafefeaf3caa3cccf57df9043d198115fd7c4fbefa1f23ec17
@@ -158,7 +158,7 @@ entries:
   url-shortener-redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-23T18:27:07.231287185+02:00"
+    created: "2023-05-23T18:28:57.346969969+02:00"
     description: redis cluster for a url shortener app developed using Vue.js, Rust
       and Redis
     digest: 339998b0f45b4065a061c5087e02bfb7313da499a44c9b64fffd7d68fa59b4ed
@@ -166,4 +166,4 @@ entries:
     urls:
     - url-shortener/url-shortener-redis-0.1.1.tgz
     version: 0.1.1
-generated: "2023-05-23T18:27:07.228804962+02:00"
+generated: "2023-05-23T18:28:57.34382996+02:00"
